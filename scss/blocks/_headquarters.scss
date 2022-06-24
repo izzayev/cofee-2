@@ -1,0 +1,111 @@
+.headquarters {
+
+    // .headquarters__inner-container
+
+    &__inner-container {
+        width: 1045px;
+        display: flex;
+        justify-content: center;
+    }
+
+    // .headquarters__container
+
+    &__container {
+        padding-bottom: 168px;
+    }
+
+    // .headquarters__heading
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+
+    // .headquarters__list
+
+    &__list {
+        width: 1045px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 72px;   
+    }
+
+    // .headquarters__item
+
+    &__item {
+        padding-top: 95px;
+        position: relative;
+    }
+
+    // .headquarters__item-3
+
+    &__item-1::before {
+        content: '';
+        display: inline-block;
+        background-image: url(./../images/united-kingdom.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    
+    // .headquarters__item-2
+    
+    &__item-22::before {
+        content: '';
+        display: inline-block;
+        background-image: url(./../images/kanada.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+    // .headquarters__item-3
+    
+    &__item-3::before {
+        content: '';
+        display: inline-block;
+        background-image: url(./../images/australiya.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0; 
+        left: 0;
+    }
+
+    // .headquarters__item-heading
+
+    &__item-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+
+    // .headquarters__item-text
+
+    &__item-text {
+        width: 110px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        margin-top: 24px;
+    }
+}

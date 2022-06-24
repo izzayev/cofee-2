@@ -1,0 +1,55 @@
+.commitment {
+
+    // .commitment__inner-container
+
+    &__inner-container {
+        margin-top: 168px;
+        padding-top: 90px;
+        padding-left: 85px;
+        padding-right: 85px;
+        display: flex;
+        justify-content: flex-end;
+        background-image: url(./../images/bratanjon.png);
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: calc(50% - 330px);
+        height: 520px;
+        margin-bottom: 256px;
+    }
+
+    // .commitment__container
+
+    &__container {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+    }
+
+    // .commitment__heading
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+    }
+
+    // .commitment__text
+
+    &__text {
+        width: 540px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}

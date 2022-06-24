@@ -1,0 +1,123 @@
+.services {
+
+    // .services__container
+
+    &__container {
+        background-color: rgb(44, 52, 62);
+        border-radius: 10px;
+        padding-top: 100px;
+        padding-bottom: 317px;
+        margin-bottom: 350px;
+    }
+
+    // .services__heading
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    // .services__text
+
+    &__text {
+        width: 540px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    // .services__card-wrapper
+
+    &__card-wrapper {
+        position: relative;
+    }
+
+    // .services__card-list
+
+    &__card-list {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: calc( -500px);
+        top: calc( -106px);
+        transform: translateY(50%) translateX(50%);
+    }
+
+    // .services__card-item
+
+    &__card-item {
+        border-radius: 8px;
+        padding-left: 48px;
+        padding-top: 200px;
+        padding-right: 48px;
+        padding-bottom: 48px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    // .services__card-item-1
+
+    &__card-item-1 {
+        background: #0E8784 url(../images/coffee-bean.svg);
+        background-repeat: no-repeat;
+        background-position: calc(50%) calc(50% - 71px);
+    }
+
+    // .services__card-item-heading
+
+    &__card-item-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    // .services__card-item-text
+
+    &__card-item-text {
+        width: 255px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-top: 24px;
+    }
+
+    // .services__card-item-2
+
+    &__card-item-2 {
+        background: #0E8784 url(../images/CombinedShape1.svg);
+        background-repeat: no-repeat;
+        background-position: calc(50%) calc(50% - 71px);
+    }
+
+    // .services__card-item-3
+
+    &__card-item-3 {
+        background: #0E8784 url(../images/CombinedShape.svg);
+        background-repeat: no-repeat;
+        background-position: calc(50%) calc(50% - 71px);
+    }
+}
+.container {
+}

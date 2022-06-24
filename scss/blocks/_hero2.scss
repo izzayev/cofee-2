@@ -1,0 +1,43 @@
+.hero2 {
+
+    // .hero2__container
+
+    &__container {
+        margin-top: 45px;
+        background-image: url(../images/Bitmap2.jpg);
+        background-repeat: no-repeat;
+        object-fit: contain;
+        height: 450px;
+        padding-left: 85px;
+        padding-top: 137px;
+        border-radius: 10px;
+    }
+
+    // .hero2__heading
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        margin: 0;
+        color: #FEFCF7;
+    }
+
+    // .hero2__text
+
+    &__text {
+        width: 445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin: 0;
+        margin-top: 24px;
+    }
+}
